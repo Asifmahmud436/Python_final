@@ -47,7 +47,7 @@ class User:
         if acc.name not in Bank.acc_holders:
             return "Account does not exist"
         acc.balance += amount
-        self.balance - amount
+        self.balance -= amount
 
 
 
